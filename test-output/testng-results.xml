@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="117" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="day3.MobileLoginCarloan()[pri:0, instance:test.day3@7f9a81e8]" name="MobileLoginCarloan" class="test.day3"/>
+        <method signature="day1.Demo()[pri:0, instance:test.day1@51081592]" name="Demo" class="test.day1"/>
+        <method signature="day1.SecondDemo(java.lang.String)[pri:0, instance:test.day1@51081592]" name="SecondDemo" class="test.day1"/>
+        <method signature="day2.ThirdDemo()[pri:0, instance:test.day2@396a51ab]" name="ThirdDemo" class="test.day2"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Regression" duration-ms="117" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+      <class name="test.day4">
+        <test-method status="PASS" signature="APILoginHomeloan()[pri:0, instance:test.day4@58651fd0]" name="APILoginHomeloan" duration-ms="2" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeloan -->
+        <test-method status="PASS" signature="MobileLoginHomeloan()[pri:0, instance:test.day4@58651fd0]" name="MobileLoginHomeloan" duration-ms="1" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeloan -->
+        <test-method status="PASS" signature="WebLoginHomeloan()[pri:0, instance:test.day4@58651fd0]" name="WebLoginHomeloan" duration-ms="2" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeloan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method status="PASS" signature="PreRequisite()[pri:0, instance:test.day2@396a51ab]" name="PreRequisite" is-config="true" duration-ms="11" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreRequisite -->
+        <test-method status="PASS" signature="ThirdDemo()[pri:0, instance:test.day2@396a51ab]" name="ThirdDemo" duration-ms="2" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdDemo -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method status="PASS" signature="MobileLoginCarloan()[pri:0, instance:test.day3@7f9a81e8]" name="MobileLoginCarloan" duration-ms="2" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarloan -->
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@7f9a81e8]" name="WebLoginCarloan" duration-ms="1" started-at="2019-01-23T14:04:05Z" data-provider="getData" finished-at="2019-01-23T14:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@7f9a81e8]" name="WebLoginCarloan" duration-ms="3" started-at="2019-01-23T14:04:05Z" data-provider="getData" finished-at="2019-01-23T14:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="WebLoginCarloan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@7f9a81e8]" name="WebLoginCarloan" duration-ms="2" started-at="2019-01-23T14:04:05Z" data-provider="getData" finished-at="2019-01-23T14:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarloan -->
+        <test-method status="PASS" signature="APILoginCarloan()[pri:0, instance:test.day3@7f9a81e8]" name="APILoginCarloan" duration-ms="1" started-at="2019-01-23T14:04:05Z" depends-on-methods="test.day3.MobileLoginCarloan" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarloan -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@51081592]" name="Demo" duration-ms="10" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.day1@51081592]" name="Login" duration-ms="2" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SecondDemo(java.lang.String)[pri:0, instance:test.day1@51081592]" name="SecondDemo" duration-ms="3" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+        <test-method status="PASS" signature="AfterExecution()[pri:0, instance:test.day1@51081592]" name="AfterExecution" is-config="true" duration-ms="0" started-at="2019-01-23T14:04:05Z" finished-at="2019-01-23T14:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterExecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>

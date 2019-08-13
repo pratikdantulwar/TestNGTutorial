@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URL" value="google.com" />
+
+	<listeners>
+		<listener class-name="test.listeners" />
+	</listeners>
+	<test name="Regression">
+
+		<groups>
+			<run>
+				<include name="SMOKE" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="test.day1" />
+			<class name="test.day2" />
+			<class name="test.day3" />
+			<class name="test.day4" />
+		</classes>
+	</test>
+
+</suite> 

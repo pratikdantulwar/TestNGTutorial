@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+  <test thread-count="5" name="Personal Loan">
+    <classes>
+      <class name="test.day1">
+      <methods>
+      <include name="SecondDemo"/>
+      </methods>
+      </class>
+        <class name="test.day2"/>
+    </classes>
+  </test> 
+  
+  <test name="Car loan">
+  <classes>
+  <class name="test.day3">
+  <methods>
+  <exclude name=""/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  <test name="Home loan">
+  <classes>
+  <class name="test.day4"></class>
+  </classes>
+  </test>
+  
+</suite> 
